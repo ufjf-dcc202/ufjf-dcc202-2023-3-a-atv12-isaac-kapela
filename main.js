@@ -43,7 +43,7 @@ export function preencheLista(lista, estoqueDaPessoa) {
     }
 }
 
-function atualizaTela() {
+export function atualizaTela() {
     const estoque = getEstoque();
 
     olJoao.innerHTML = "";
