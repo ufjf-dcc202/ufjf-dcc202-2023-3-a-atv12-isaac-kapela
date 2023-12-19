@@ -12,6 +12,9 @@ document.addEventListener('DOMContentLoaded', () => {
         atualizaTela();
     });
 });
+
+atualizaTela();
+
 export function leFormulario(event)
 {
     event.preventDefault(event);
