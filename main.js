@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
         atualizaTela();
     });
 });
-function leFormulario(event)
+export function leFormulario(event)
 {
     event.preventDefault(event);
     const quantidade = document.entrada.quantidade.valueAsNumber;
@@ -27,7 +27,7 @@ function leFormulario(event)
 }
 
 
-function preencheLista(lista, estoqueDaPessoa) {
+export function preencheLista(lista, estoqueDaPessoa) {
     lista.textContent = "";
 
     if (Array.isArray(estoqueDaPessoa)) {
